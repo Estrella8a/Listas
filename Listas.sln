@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListasSimplementeLigadas", "ListasSimplementeLigadas\ListasSimplementeLigadas.csproj", "{FA9223E1-C582-49B4-B170-FA92B47DC805}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListasDoblementeLigadas", "ListasDoblementeLigadas\ListasDoblementeLigadas.csproj", "{F980A49A-F836-49E7-9211-49DE5FFD5234}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA9223E1-C582-49B4-B170-FA92B47DC805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA9223E1-C582-49B4-B170-FA92B47DC805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA9223E1-C582-49B4-B170-FA92B47DC805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA9223E1-C582-49B4-B170-FA92B47DC805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F980A49A-F836-49E7-9211-49DE5FFD5234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F980A49A-F836-49E7-9211-49DE5FFD5234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F980A49A-F836-49E7-9211-49DE5FFD5234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F980A49A-F836-49E7-9211-49DE5FFD5234}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FB7E500-4D78-4037-BE0A-3F4339BDAA9C}
+	EndGlobalSection
+EndGlobal
