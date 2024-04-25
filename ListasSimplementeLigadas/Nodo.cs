@@ -7,13 +7,13 @@ namespace ListasSimplementeLigadas
 {
     public class Nodo
     {
-        public string Value { get; set; }
-        public Nodo Link { get; set; }
-        public Nodo(string value = "", Nodo link = null)
-        {
-            Value = value;
-            Link = link;
-        }
+        public string Valor { get; set; }
+        public Nodo Enlace { get; set; }
 
+        public Nodo(string valor = "", Nodo enlace = null)
+        {
+            Valor = valor;
+            Enlace = enlace;
+        }
     }
 }

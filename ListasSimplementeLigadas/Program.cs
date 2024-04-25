@@ -2,9 +2,16 @@
 
 Console.WriteLine("Listas Simplemente Ligadas");
 
-Nodo nodoEmpty = new Nodo();
-Nodo nodo = new Nodo("Pepe", nodoEmpty);
-Console.WriteLine(nodoEmpty.Value);
-Console.WriteLine(nodoEmpty.Value);
+Lista miLista = new Lista();
+miLista.Agregar("Cero");
+miLista.Agregar("Uno");
+miLista.Agregar("Dos");
+miLista.Agregar("Tres");
+miLista.Agregar("Cuatro");
 
-//Console.WriteLine(nodo.Name);
+string elementos = miLista.Recorrer();
+Console.WriteLine(elementos);
+
+Console.WriteLine();
+Nodo encontrado = miLista.Buscar("Dos");
+
