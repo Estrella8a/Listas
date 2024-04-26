@@ -14,4 +14,3 @@ Console.WriteLine(elementos);
 
 Console.WriteLine();
 Nodo encontrado = miLista.Buscar("Dos");
-
